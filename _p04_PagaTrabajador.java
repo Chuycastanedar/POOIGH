@@ -1,0 +1,1 @@
+// Calcula el pago que recibe un trabajador a partir de algunos parámetros
