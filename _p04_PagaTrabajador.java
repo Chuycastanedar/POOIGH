@@ -10,9 +10,9 @@ public class _p04_PagaTrabajador {
         float paga, tasa, impuesto, pagabruta, paganeta;
         Scanner obj = new Scanner(System.in);
         //Entrada
-        System.out.print("Ingresa tu nombre: "); nombre = obj.nextline();
-        System.out.print("Ingresa tus horas trabajadas: "); horas = obj.nextline();
-        System.out.print("Ingresa tu pago por hora: "); paga = obj.nextline();
+        System.out.print("Ingresa tu nombre: "); nombre = obj.nextLine();
+        System.out.print("Ingresa tus horas trabajadas: "); horas = obj.nextInt();
+        System.out.print("Ingresa tu pago por hora: "); paga = obj.nextFloat();
 
         tasa = 0.3f;
         //Cálculo
