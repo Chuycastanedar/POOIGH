@@ -9,7 +9,7 @@ public class _p09_DividirEnCifras {
 
         System.out.println("Dame un número entero de 3 cifras: ");
 
-        num = new Scanner(System.in)nextInt();
+        num = new Scanner(System.in).nextInt();
 
         centenas = num / 100;
         decenas = (num - centenas * 100) / 10;
