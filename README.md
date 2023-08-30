@@ -36,3 +36,15 @@
 - _p22_VerificarSuma
 - _p23_ConvertirTemperatura
 - _p24_PagaTrabajadorV2
+
+## Actividad 5
+- _p25_EstacionesAño
+- _p26_TipoAngulo
+- _p27_AceptarEstudiante
+- _p28_LeyDeNewton
+
+## Actividad 6
+- _p29_Calculadora
+- _p30_DiaSemana
+- _p31_NumerosRomanos
+- _p32_PagoEstacionamiento
