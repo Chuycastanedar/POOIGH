@@ -17,5 +17,6 @@ public class _p03_AreaTriangulo {
     area = base + altura /2;
     System.out.println(String.format("El triángulo de base: %d y altura: %d tiene un área de: %f", base, altura, area));
 
+    
     }
 }
