@@ -48,3 +48,24 @@
 - _p30_DiaSemana
 - _p31_NumerosRomanos
 - _p32_PagoEstacionamiento
+
+## Práctica 02
+- _p33_numeros-consecutivos
+- _p34_numero-mayor
+- _p35_continentes-mundo
+- _p36_compra-pizza
+- _p37_calculo-notas
+- _p38_aceptar-estudiante-v2
+
+## Actividad 7
+- _p39_Numeros1a100
+- _p40_Numeros100a1
+- _p41_ProcesaCalificaciones
+- _p42_TablaMultiplicar
+- _p43_ConteoNumeros
+
+## Actividad 8
+- _p44_ParesAscendente
+- _p45_ImparesDescendente
+- _p46_TablaConversion
+- _p47_ConjeturaCollatz
