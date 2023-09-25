@@ -108,3 +108,6 @@
 - _p72_SumaParesImpares
 - _p73_Factorial
 - _p74_CuadroCaracter 
+
+## Primer exámen parcial
+- _p80_PrimerExamenParcial
