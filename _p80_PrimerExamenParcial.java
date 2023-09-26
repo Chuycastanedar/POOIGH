@@ -22,7 +22,7 @@ public class _p80_PrimerExamenParcial {
         double totalDineroGeneral = 0;
         double totalEdad = 0;
         double promedioEdad;
-        String nombre, tipoParticipante;
+        String nombre, tipoParticipante, mensajeFinal;
 
         // Ciclo principal para ingresar los datos
         while (true) {
@@ -35,7 +35,6 @@ public class _p80_PrimerExamenParcial {
             System.out.println("Inscripciones al curso de técnicas avanzadas de programación...");
             System.out.print("\nPara finalizar ingresa: salir");
             System.out.println("\n\nIngresa los siguientes datos... ");
-
             System.out.print("\nTu Nombre: ");
             nombre = input.nextLine();
             
@@ -83,7 +82,7 @@ public class _p80_PrimerExamenParcial {
                 System.out.print("\nLo siento, debes ser mayor de edad para registrarte...");
                 // Tiempo de espera del mensaje en pantalla
                 try {
-                    Thread.sleep(2500); // 5000 milisegundos = 5 segundos
+                    Thread.sleep(2500); // 2500 milisegundos = 2.5 segundos
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -93,11 +92,18 @@ public class _p80_PrimerExamenParcial {
         totalDineroGeneral = totalDineroAlumnos + totalDineroDocentes + totalDineroTrabajadores;
         // Edad promedio de participantes
         promedioEdad = totalEdad / totalParticipantes;
-        
+
+        // Mensaje final de ganancias
+        if (totalDineroGeneral < 100) {
+           mensajeFinal = "\nEl evento concluye con ganancias BAJAS...";
+        } else if (totalDineroGeneral < 200) {
+            mensajeFinal = "\nEl evento concluye con ganancias MODERADAS...";
+        } else {
+            mensajeFinal = "\nEl evento concluye con BUENAS ganancias...";
+        }
         // Limpiar la pantalla para los resultados
         System.out.print("\033[H\033[2J");
         System.out.flush();
-
         System.out.println("\nRESULTADOS DE INSCRIPCIONES...\n");
         System.out.println("Total de Alumnos: " + totalAlumnos);
         System.out.println("Total de Docentes: " + totalDocentes);
@@ -112,14 +118,6 @@ public class _p80_PrimerExamenParcial {
         System.out.println("Total dinero recaudado de Docentes: " + totalDineroDocentes);
         System.out.println("Total dinero recaudado de Trabajadores: " + totalDineroTrabajadores);
         System.out.println("Total dinero en general: " + totalDineroGeneral);
-        
-        // Mensaje final de ganancias
-        if (totalDineroGeneral < 100) {
-            System.out.println("\nEl evento concluye con ganancias BAJAS...");
-        } else if (totalDineroGeneral < 200) {
-            System.out.println("\nEl evento concluye con ganancias MODERADAS...");
-        } else {
-            System.out.println("\nEl evento concluye con BUENAS ganancias...");
-        }
+        System.out.print(mensajeFinal);
     }
 }
