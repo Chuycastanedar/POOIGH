@@ -118,3 +118,21 @@
 - _p83_InicializaNombresEdades
 - _p84_LeerArregloCalificaciones
 - _p85_NombresEdades
+
+## Actividad 14
+- _p86_ArregloMostrar
+- _p87_ArregloTemperaturas
+- _p88_Aleatorios
+- _p89_ArregloAleatorios
+
+## Práctica 06
+- _p90_Temperaturas
+- _p91_MayoresPromedio
+- _p92_MayorMenor
+- _p93_ParesImpares 
+
+## Actividad 15
+- _p94_Empleado01
+- _p95_Empleado02
+- _p96_Empleado03
+- _p97_Empleado04
