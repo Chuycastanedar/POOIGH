@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _p92_MayorMenor {
     public static void main(String[] args) {
         int n = 0;
-        int menor = 0;
+        int menor, mayor;
         Scanner obj = new Scanner(System.in);
 
         System.out.println("\033[H\033[2J"); System.out.flush();
@@ -24,12 +24,17 @@ public class _p92_MayorMenor {
         for (int cal : numeros){
             System.out.printf("%d ", cal);
         }
-        // Identificar al menor
-        for (int i = 1; i < numeros.length; i++) {
-            if (numeros[i] < numeros[i-1]) {
+        // Identificar al menor y mayor
+        menor = mayor = numeros[0];
+        for (int i = 0; i < numeros.length; i++) {
+            if(numeros [i] > mayor) {
+                mayor = numeros[i];
+            }
+            if(numeros[i]<menor) {
                 menor = numeros[i];
             }
         }
         System.out.println("\nEl menor es: " + menor);
+        System.out.println("\nEl mayor es: " + mayor);
     }
 }
