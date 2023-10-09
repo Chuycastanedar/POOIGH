@@ -136,3 +136,13 @@
 - _p95_Empleado02
 - _p96_Empleado03
 - _p97_Empleado04
+
+## Práctica 07
+- _p98_Circulo
+- _p99_Rectangulo
+- _p100_Articulo 
+
+## Actividad 16
+- _p101_TrabajoPersona
+- _p103_ClienteFactura
+- _p102_AutorLibro
