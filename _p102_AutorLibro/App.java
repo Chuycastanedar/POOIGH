@@ -13,7 +13,7 @@ public class App {
         libro1.setAutor(autor);
         System.out.println(libro1);
 
-        Libro Libro2 = new Libro("10232320", "Ecuaciones Diferenciales", new Autor("El hijo de baldor", "baldorson@hotmail.com"), 2300, 10);
+        Libro libro2 = new Libro("10232320", "Ecuaciones Diferenciales", new Autor("El hijo de baldor", "baldorson@hotmail.com"), 2300, 10);
         System.out.println(libro2);
         System.out.println("Nombre del Libro: " + libro2.getNombre());
         System.out.println("Nombre Autor    : " + libro2.getAutor().getNombre());

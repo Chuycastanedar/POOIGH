@@ -1,20 +1,20 @@
 package _p103_ClienteFactura;
 
 public class Cliente {
-    private int Id;
+    private String Id;
     private String Nombre;
     private int Descuento;
     public Cliente() {
     }
-    public Cliente(int id, String nombre, int descuento) {
+    public Cliente(String id, String nombre, int descuento) {
         Id = id;
         Nombre = nombre;
         Descuento = descuento;
     }
-    public int getId() {
+    public String getId() {
         return Id;
     }
-    public void setId(int id) {
+    public void setId(String id) {
         Id = id;
     }
     public String getNombre() {
