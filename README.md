@@ -144,5 +144,9 @@
 
 ## Actividad 16
 - _p101_TrabajoPersona
-- _p103_ClienteFactura
 - _p102_AutorLibro
+- _p103_ClienteFactura
+
+## Práctica 08
+- _p104_PuntoCirculo
+- _p105_PuntoTriangulo
