@@ -1,6 +1,7 @@
+package _p132_Archivo1;
 import java.io.File;
 
-public class _p132_Archivos1 {
+public class _p132_Archivo1 {
     public static void main(String[] args) {
         File arch = new File("datos.txt");
         System.out.println("Nombre archivo : " + arch.getName());
