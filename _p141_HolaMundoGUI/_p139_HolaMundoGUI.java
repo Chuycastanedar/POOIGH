@@ -1,11 +1,12 @@
 package _p141_HolaMundoGUI;
 import javax.swing.*;
+import java.awt.Font;
 
 public class _p139_HolaMundoGUI extends JFrame {
     private JLabel lblSaludo;
     public _p139_HolaMundoGUI() {
         setLayout(null);
-        lblSaludo=new JLabel("Hola Mundo.");
+        lblSaludo = new JLabel("Hola Mundo.");
         lblSaludo.setFont(new Font("Times New Roman",Font.BOLD, 30));
         lblSaludo.setBounds(10,20,200,30);
         add(lblSaludo);
