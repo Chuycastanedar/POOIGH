@@ -1,4 +1,4 @@
-package _p141_LeyDeNewtonGUI;
+package _p142_LeyDeNewtonGUI;
 
 import javax.swing.*;
 import java.awt.*;
