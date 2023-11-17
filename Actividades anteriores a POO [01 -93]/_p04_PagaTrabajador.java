@@ -22,11 +22,10 @@ public class _p04_PagaTrabajador {
         //Salida
         System.out.println("Resumen de pagos: \n");
         System.out.println(String.format("El trabajador %s, trabajo %d horas, con una paga de %.2f pesos por hora,",
-                  "se asume una tasa de impuesto de %.2f", nombre, horas, paga, tasa));
+                  "se asume una tasa de impuesto de %.2f", nombre, horas, paga,tasa));
         System.out.println(String.format("Paga bruta %.2f", pagabruta));
         System.out.println(String.format("Impuestos %.2f", impuesto));
         System.out.println(String.format("Paga neta %.2f", paganeta));
 
-        
     }
 }
